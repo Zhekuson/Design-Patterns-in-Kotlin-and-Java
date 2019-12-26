@@ -14,6 +14,6 @@ public object KeyWordProvider{
 fun main() {
     val provider1 =  KeyWordProvider
     val provider2 = KeyWordProvider
-    print(provider1.getInstance())
-    print(provider2.getInstance())
+    println(provider1.getInstance())
+    println(provider2.getInstance())
 }
